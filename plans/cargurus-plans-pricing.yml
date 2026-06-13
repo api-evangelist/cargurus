@@ -1,0 +1,37 @@
+name: CarGurus API Plans and Pricing
+description: CarGurus API access is provided on a partner and dealer basis through direct arrangement with CarGurus. API credentials (appId and authToken) are issued by CarGurus upon approval. There is no self-serve public pricing page; access is granted to dealers and integration partners through the CarGurus partner program.
+url: https://www.cargurus.com/Cars/developers/
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Dealer Access
+    description: Direct dealer access to CarGurus APIs including Dealer Stats, Instant Market Value, Dealer Reviews, and Dealer SMS APIs. Credentials are provisioned by CarGurus for verified dealers listed on the platform.
+    type: Partner
+    access: By application and approval from CarGurus
+    apis:
+      - Dealer Stats API (v1.0, v2.0, v3.0)
+      - Instant Market Value API
+      - Dealer Reviews API
+      - Dealer SMS API
+      - SEM Ad Landing Page URL Generator API
+      - SEM Filter Values API
+  - name: Partner Access
+    description: Integration partner access for third-party platforms and automotive software vendors who integrate with CarGurus data. Partners may access dealer statistics on behalf of multiple dealers using an external_dealer_id parameter.
+    type: Partner
+    access: By application and approval from CarGurus
+    apis:
+      - Dealer Stats API (v2.0, v3.0)
+      - Car Selector API
+      - Body Type Groups API
+  - name: Affiliate Access
+    description: Affiliate partner access for generating CarGurus search result URLs and SEM landing pages through the Car Selector and SEM APIs. Requires an affiliatePartner identifier issued by CarGurus.
+    type: Affiliate
+    access: By application and approval from CarGurus
+    apis:
+      - Car Selector API
+      - SEM Ad Landing Page URL Generator API
+      - SEM Filter Values API
+notes:
+  - Pricing is not publicly disclosed; access terms are negotiated directly with CarGurus.
+  - API credentials (appId and authToken) are supplied by CarGurus upon approval.
+  - Contact CarGurus through their developer portal or dealer support channels to request API access.

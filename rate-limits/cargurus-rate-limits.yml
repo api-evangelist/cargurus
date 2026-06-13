@@ -1,0 +1,33 @@
+name: CarGurus API Rate Limits
+description: CarGurus API rate limits are enforced but not publicly documented with specific thresholds. All APIs return error code 104 when the rate of requests is too high, indicating rate limiting is in effect. Specific limits are provided to partners upon API credential issuance.
+url: https://www.cargurus.com/Cars/developers/
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - api: All CarGurus APIs
+    errorCode: 104
+    errorMessage: The rate of requests is too high
+    description: Rate limiting is enforced across all CarGurus APIs. When the limit is exceeded, the API returns error code 104 with a description indicating the request rate is too high. Specific numeric thresholds are not publicly disclosed.
+    enforcement: Response error code
+    publiclyDocumented: false
+    notes:
+      - Error code 104 is documented in the Dealer Stats API, Instant Market Value API, and Dealer Reviews API documentation pages.
+      - Actual rate limit thresholds are communicated privately to API partners upon credential issuance.
+      - Implement exponential backoff when encountering error code 104.
+errorCodes:
+  - code: 100
+    description: Malformed request
+  - code: 101
+    description: Authentication failure - invalid appId or authToken
+  - code: 102
+    description: Application not approved for requested API
+  - code: 103
+    description: Internal server error or I/O error
+  - code: 104
+    description: Rate limit exceeded - request rate is too high
+  - code: 105
+    description: Unexpected error
+recommendations:
+  - Implement retry logic with exponential backoff when error code 104 is received.
+  - Cache responses where appropriate to reduce API call frequency.
+  - Contact CarGurus partner support for specific rate limit thresholds applicable to your account tier.

@@ -1,0 +1,34 @@
+name: CarGurus API FinOps
+description: Financial operations considerations for CarGurus API integrations. CarGurus API pricing is not publicly disclosed and is managed through partner agreements. Cost management focuses on usage optimization and monitoring to stay within agreed usage tiers.
+url: https://www.cargurus.com/Cars/developers/
+created: '2026-06-13'
+modified: '2026-06-13'
+costModel:
+  type: Partner Agreement
+  publicPricing: false
+  description: CarGurus API access pricing is negotiated through direct partner or dealer agreements with CarGurus. There is no public self-serve pricing tier. Cost structures vary by partner type (dealer, integration partner, affiliate) and usage volume.
+considerations:
+  - name: No Public Pricing
+    description: CarGurus does not publish API pricing publicly. All pricing is arranged through direct agreements with CarGurus business development or dealer support teams.
+  - name: Rate Limit Monitoring
+    description: Monitor for error code 104 (rate limit exceeded) responses. Exceeding rate limits can cause request failures and potential service disruptions for downstream users.
+  - name: Dealer Stats Versioning
+    description: The Dealer Stats API has deprecated v1.0 in favor of v2.0 and v3.0. Continuing to use deprecated API versions may affect access or incur migration costs.
+  - name: SMS Messaging Costs
+    description: The Dealer SMS API sends real SMS and MMS messages. SMS/MMS delivery costs may be factored into partner agreements depending on message volume.
+  - name: Instant Market Value API Volume
+    description: The IMV API accepts batch requests with multiple listings per call. Batching requests reduces API call counts and is recommended for high-volume valuation workflows.
+optimization:
+  - strategy: Batch IMV Requests
+    description: The Instant Market Value API accepts arrays of listings per request. Submit listings in batches to maximize efficiency and minimize API call counts.
+  - strategy: Cache Reference Data
+    description: Car Selector API responses (makes, models) and Body Type Groups data change infrequently. Cache these responses locally to reduce redundant API calls.
+  - strategy: Implement Backoff on Rate Limiting
+    description: Use exponential backoff when receiving error code 104 to avoid compounding rate limit issues and wasted request attempts.
+  - strategy: Schedule Stats Pulls Off-Peak
+    description: Dealer Stats API calls for historical date ranges can be scheduled during off-peak hours to spread load and reduce peak usage.
+contacts:
+  - type: Developer Support
+    url: https://www.cargurus.com/Cars/developers/
+  - type: Dealer Support
+    url: https://cargurus.helpscoutdocs.com
