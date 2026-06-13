@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.cargurus.com",
+  "name": "CarGurus",
+  "description": "CarGurus is an automotive marketplace providing REST APIs for dealer inventory management, vehicle pricing and market valuation, dealer performance analytics, consumer vehicle research, and dealer communications including SMS messaging.",
+  "url": "https://www.cargurus.com",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/cargurus",
+    "https://www.linkedin.com/company/cargurus",
+    "https://x.com/CarGurus",
+    "https://cargurus.dev/"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "CarGurus APIs",
+    "itemListElement": [
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Dealer Stats API",
+        "description": "Retrieves daily performance statistics for dealer inventory including search result page views, vehicle detail page clicks, and lead generation metrics across email, phone, chat, and SMS channels.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/DealerStatsV3Daily.html",
+        "featureList": [
+          "Daily dealer inventory statistics",
+          "Search result page (SRP) view counts",
+          "Vehicle detail page (VDP) click tracking",
+          "Email, phone, chat, and SMS lead metrics",
+          "Social media click tracking (Facebook, Twitter)",
+          "Website and map click tracking"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Instant Market Value API",
+        "description": "Returns vehicle market valuations and deal ratings based on VIN, make, model, trim, mileage, and location data, enabling real-time price comparison and market positioning.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/InstantMarketValue.html",
+        "featureList": [
+          "Vehicle market valuation by VIN",
+          "Deal ratings: GREAT_PRICE, GOOD_PRICE, OK_PRICE, FAIR_PRICE, POOR_PRICE, OVERPRICED",
+          "Rating boundary thresholds",
+          "CarGurus standardized vehicle ontology matching",
+          "Batch listing valuation support",
+          "Geographic listing area data"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Dealer Reviews API",
+        "description": "Provides access to consumer dealer reviews including ratings, review text, author information, timestamps, and dealer management responses.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/DealerReviews.html",
+        "featureList": [
+          "Consumer dealer review retrieval",
+          "1-5 star rating data",
+          "Review author and body text",
+          "Dealer management response data",
+          "Review status tracking",
+          "Review management dashboard URL"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Dealer SMS API",
+        "description": "Enables dealers to send SMS and MMS messages to consumers, supporting text and media content for direct dealer-to-consumer communication through the CarGurus platform.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/DealerSMS.html",
+        "featureList": [
+          "SMS messaging to consumers",
+          "MMS media attachment support (up to 10 files)",
+          "Message body up to 1600 characters",
+          "E.164 phone number format support",
+          "Opt-out (STOP) compliance enforcement",
+          "Unique message SID tracking"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Car Selector API",
+        "description": "Provides vehicle make and model lookup capabilities and generates search result URLs for new and used vehicle listings, supporting affiliate and partner integration.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/CarSelector.html",
+        "featureList": [
+          "List vehicle makes (NEW or USED)",
+          "List vehicle models by make",
+          "Generate listing search redirect URLs",
+          "Popular make/model classification",
+          "Distance/radius search configuration",
+          "Affiliate partner identifier support"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "CarGurus Body Type Groups API",
+        "description": "Provides vehicle body type classification and translation data, mapping CarGurus body type identifiers to human-readable labels for vehicle search and filtering interfaces.",
+        "applicationCategory": "BusinessApplication",
+        "url": "https://www.cargurus.com/Cars/developers/docs/BodyTypeGroupTranslations.html",
+        "featureList": [
+          "Body type group localization",
+          "Java locale string support",
+          "Plural and singular label translations",
+          "Sedan, pickup truck, SUV, and other body type keys"
+        ]
+      }
+    ]
+  },
+  "termsOfService": "https://www.cargurus.com/about/terms-of-use",
+  "privacyPolicy": "https://www.cargurus.com/about/privacy-policy"
+}
