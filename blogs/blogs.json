@@ -1,6 +1,6 @@
 {
   "url": "https://cargurus.dev/",
-  "fetched": "2026-06-13",
+  "fetched": "2026-06-14T20:42:17Z",
   "posts": [
     {
       "title": "From Zero to Stable: Frontend Platform's Load Testing Journey with k6",
@@ -62,5 +62,16 @@
       "date": "2022-12-09",
       "author": "Alex Shopov"
     }
-  ]
+  ],
+  "repo": "cargurus",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/cargurus",
+      "feed_url": "https://www.linkedin.com/company/cargurus",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0
 }
