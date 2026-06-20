@@ -1,7 +1,7 @@
 aid: cargurus
 name: CarGurus
 description: CarGurus is an automotive marketplace providing REST APIs for dealer inventory management, vehicle pricing and market valuation, dealer performance analytics, consumer vehicle research, and dealer communications including SMS messaging.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cargurus/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -17,7 +17,7 @@ apis:
   - aid: cargurus:dealer-stats-api
     name: CarGurus Dealer Stats API
     description: Retrieves daily performance statistics for dealer inventory including search result page views, vehicle detail page clicks, and lead generation metrics across email, phone, chat, and SMS channels.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/DealerStatsV3Daily.html
     baseURL: https://www.cargurus.com
     tags:
@@ -32,7 +32,7 @@ apis:
   - aid: cargurus:instant-market-value-api
     name: CarGurus Instant Market Value API
     description: Returns vehicle market valuations and deal ratings (Great Price, Good Price, Fair Price, etc.) based on VIN, make, model, trim, mileage, and location data, enabling real-time price comparison and market positioning.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/InstantMarketValue.html
     baseURL: https://www.cargurus.com
     tags:
@@ -47,7 +47,7 @@ apis:
   - aid: cargurus:dealer-reviews-api
     name: CarGurus Dealer Reviews API
     description: Provides access to consumer dealer reviews including ratings, review text, author information, timestamps, and dealer management responses, supporting reputation management and review display integrations.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/DealerReviews.html
     baseURL: https://www.cargurus.com
     tags:
@@ -62,7 +62,7 @@ apis:
   - aid: cargurus:dealer-sms-api
     name: CarGurus Dealer SMS API
     description: Enables dealers to send SMS and MMS messages to consumers, supporting text and media content up to 1600 characters and 10 media attachments for direct dealer-to-consumer communication through the CarGurus platform.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/DealerSMS.html
     baseURL: https://www.cargurus.com
     tags:
@@ -77,7 +77,7 @@ apis:
   - aid: cargurus:car-selector-api
     name: CarGurus Car Selector API
     description: Provides vehicle make and model lookup capabilities and generates search result URLs for new and used vehicle listings, supporting affiliate and partner integration for vehicle shopping search experiences.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/CarSelector.html
     baseURL: https://www.cargurus.com
     tags:
@@ -90,7 +90,7 @@ apis:
   - aid: cargurus:sem-ad-url-generator-api
     name: CarGurus SEM Ad Landing Page URL Generator API
     description: Generates targeted landing page URLs for Search Engine Marketing ad campaigns, enabling partners to create deep-linked pages pointing to relevant vehicle search results on CarGurus.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/SemAdUrlGenerator.html
     baseURL: https://www.cargurus.com
     tags:
@@ -105,7 +105,7 @@ apis:
   - aid: cargurus:sem-filter-values-api
     name: CarGurus SEM Filter Values API
     description: Supplies filter values used for constructing SEM campaigns and search configurations on the CarGurus platform, supporting dynamic ad targeting and search filter integration.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/SemFilterValues.html
     baseURL: https://www.cargurus.com
     tags:
@@ -120,7 +120,7 @@ apis:
   - aid: cargurus:body-type-groups-api
     name: CarGurus Body Type Groups API
     description: Provides vehicle body type classification and translation data, mapping CarGurus body type identifiers to human-readable labels for use in vehicle search and filtering interfaces.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cargurus.com/Cars/developers/docs/BodyTypeGroupTranslations.html
     baseURL: https://www.cargurus.com
     tags:
