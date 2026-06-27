@@ -1,77 +1,18 @@
 {
-  "url": "https://cargurus.dev/",
-  "fetched": "2026-06-14T20:42:17Z",
-  "posts": [
-    {
-      "title": "From Zero to Stable: Frontend Platform's Load Testing Journey with k6",
-      "url": "https://cargurus.dev/2026/06/08/from-zero-to-stable-frontend-platforms-load-testing-journey-with-k6/",
-      "date": "2026-06-08",
-      "author": "Danjin Sun"
-    },
-    {
-      "title": "Hexagonal Architecture with Remix 2 (now React Router Framework)",
-      "url": "https://cargurus.dev/2026/05/22/hexagonal-architecture-with-remix-2-now-react-router-framework/",
-      "date": "2026-05-22",
-      "author": "Brendan McLoughlin"
-    },
-    {
-      "title": "VINs: The Encoding Stamped Into Steel",
-      "url": "https://cargurus.dev/2026/04/29/vins-the-encoding-stamped-into-steel/",
-      "date": "2026-04-29",
-      "author": "Brendan McLoughlin"
-    },
-    {
-      "title": "genStats: Standardizing Experimentation Analysis at Scale",
-      "url": "https://cargurus.dev/2026/03/06/genstats-standardizing-experimentation-analysis-at-scale/",
-      "date": "2026-03-06",
-      "author": "Mark Gordon and Naman Rathi"
-    },
-    {
-      "title": "Data Loading Patterns in Remix Applications",
-      "url": "https://cargurus.dev/2024/02/22/data-loading-patterns-in-remix-applications/",
-      "date": "2024-02-22",
-      "author": "Maxim Milovanov"
-    },
-    {
-      "title": "Creating a Centralized Developer Hub at CarGurus",
-      "url": "https://cargurus.dev/2023/08/02/creating-a-centralized-developer-hub-at-cargurus/",
-      "date": "2023-08-02",
-      "author": "Frank Fodera"
-    },
-    {
-      "title": "Actor Pattern Controlling Connection Pool in Kotlin to Honor API Rate Limit Exceptions",
-      "url": "https://cargurus.dev/2023/07/19/actor-pattern-controlling-connection-pool-in-kotlin-to-honor-api-rate-limit-exceptions/",
-      "date": "2023-07-19",
-      "author": "CarGurus Revved"
-    },
-    {
-      "title": "How CarGurus is Supercharging Our Microservice Developer Experience",
-      "url": "https://cargurus.dev/2023/03/27/how-cargurus-is-supercharging-our-microservice-developer-experience/",
-      "date": "2023-03-27",
-      "author": "CarGurus Revved"
-    },
-    {
-      "title": "Decomposition Journey at CarGurus: From Monolith to Microservices",
-      "url": "https://cargurus.dev/2023/02/27/decomposition-journey-at-cargurus-from-monolith-to-microservices/",
-      "date": "2023-02-27",
-      "author": "Frank Fodera"
-    },
-    {
-      "title": "Better Living Through Asset Isolation",
-      "url": "https://cargurus.dev/2022/12/09/better-living-through-asset-isolation/",
-      "date": "2022-12-09",
-      "author": "Alex Shopov"
-    }
-  ],
   "repo": "cargurus",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/cargurus",
-      "feed_url": "https://www.linkedin.com/company/cargurus",
+      "source": "https://cargurus.dev/feed/",
+      "feed_url": "https://cargurus.dev/feed/",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "feed"
+    },
+    {
+      "source": "https://www.linkedin.com/company/cargurus",
+      "error": "HTTPError"
     }
   ],
-  "post_count": 0
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 5
 }
