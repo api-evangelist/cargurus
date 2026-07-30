@@ -1,7 +1,19 @@
 aid: cargurus
 name: CarGurus
 description: CarGurus is an automotive marketplace providing REST APIs for dealer inventory management, vehicle pricing and market valuation, dealer performance analytics, consumer vehicle research, and dealer communications including SMS messaging.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cargurus.png
 url: https://raw.githubusercontent.com/api-evangelist/cargurus/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
