@@ -1,6 +1,17 @@
 aid: cargurus
 name: CarGurus
 description: CarGurus is an automotive marketplace providing REST APIs for dealer inventory management, vehicle pricing and market valuation, dealer performance analytics, consumer vehicle research, and dealer communications including SMS messaging.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
